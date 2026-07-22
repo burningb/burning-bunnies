@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Contact — Burning Bunnies</title>
+<meta name="description" content="버닝버니즈에 프로젝트를 문의하세요.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;600;700&family=Space+Mono:wght@400;700&family=Noto+Sans+KR:wght@400;500;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/static/pretendard.css">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<div class="preloader" aria-hidden="true">
+  <span class="preloader-word">Loading</span>
+  <span class="preloader-count">0</span>
+  <div class="preloader-bar"></div>
+</div>
+
+<div class="noise-overlay" aria-hidden="true"></div>
+<div class="cursor-dot" aria-hidden="true"></div>
+<div class="scroll-nav" aria-hidden="true">
+  <span class="sn-arrow">→</span><span class="sn-label">Contact</span>
+</div>
+
+<header class="site-header">
+  <div class="container">
+    <a href="index.html" class="logo"><img src="assets/img/logo.png" alt="Burning Bunnies" class="logo-img"></a>
+    <button class="nav-toggle" aria-label="메뉴 열기">☰</button>
+    <nav class="main-nav">
+      <ul>
+        <li><a href="index.html">홈</a></li>
+        <li><a href="work.html">워크</a></li>
+        <li><a href="about.html">소개</a></li>
+        <li><a href="contact.html" class="active">컨택트</a></li>
+      </ul>
+    </nav>
+  </div>
+</header>
+
+<main>
+
+  <section class="section-pad contact" data-label="Contact" style="min-height:70vh;display:flex;align-items:center;">
+    <div class="container">
+      <div class="orb-diagram--sm" style="margin-bottom:18px;" aria-hidden="true">
+        <div class="orb-scene">
+          <div class="orb-ring orb-ring--art"></div>
+          <div class="orb-ring orb-ring--tech"></div>
+          <div class="orb-ring orb-ring--inclusion"></div>
+          <div class="orb-core">BB</div>
+        </div>
+      </div>
+      <span class="eyebrow reveal">Contact</span>
+      <h1 class="section-title reveal">함께 만들어갈<br>다음 프로젝트</h1>
+      <p class="lead2 reveal">버닝버니즈는 창작의 실험성과 사회적 포용성을 연결하며, 동시대 문화예술의 새로운 장면을 만들어가고자 합니다.</p>
+      <div class="contact-links reveal">
+        <a href="mailto:realaudio1@gmail.com">✉ realaudio1@gmail.com</a>
+        <a href="mailto:info.bunnies2012@gmail.com">✉ info.bunnies2012@gmail.com</a>
+        <a href="https://instagram.com/burning_bunnies" target="_blank" rel="noopener">◎ @burning_bunnies</a>
+        <a href="#">Fax. 0303-3443-7704</a>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<footer>
+  <div class="container">
+    <span class="foot-brand">BURNING BUNNIES</span>
+    <span class="foot-meta">미디어아트 창작과 배리어프리 문화예술을 연결하는 융복합 콘텐츠 스튜디오 · © <span id="year"></span></span>
+  </div>
+</footer>
+
+<div class="lightbox" id="lightbox">
+  <button class="lightbox-close">✕</button>
+  <img src="" alt="확대 이미지">
+</div>
+
+<script src="js/script.js"></script>
+</body>
+</html>
